@@ -1,0 +1,15 @@
+{
+  "name": "meteor-changestream-crash",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.23.5",
+    "@swc/helpers": "^0.5.23",
+    "meteor-node-stubs": "^1.2.30"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": false,
+      "server": "server/main.js"
+    }
+  }
+}
